@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="Privacy Policy for Bendora, a conduit-bend calculation aid for iPhone.">
+    <title>Bendora Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --background: #f4f7f5;
+        --surface: #ffffff;
+        --text: #18211c;
+        --muted: #56615a;
+        --accent: #26734d;
+        --border: #dce5df;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --background: #0d1511;
+          --surface: #15211a;
+          --text: #f0f6f2;
+          --muted: #b6c4bb;
+          --accent: #72d39e;
+          --border: #2e4235;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--background);
+        color: var(--text);
+        font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main {
+        width: min(800px, calc(100% - 32px));
+        margin: 48px auto;
+        padding: clamp(26px, 5vw, 58px);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        box-shadow: 0 18px 60px rgb(0 40 20 / 8%);
+      }
+      h1, h2 { line-height: 1.2; }
+      h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 3.1rem); }
+      h2 { margin-top: 2.2rem; font-size: 1.3rem; }
+      p, li { max-width: 70ch; }
+      .app-name, a { color: var(--accent); }
+      .updated { margin-top: 0; color: var(--muted); }
+      .summary {
+        margin: 28px 0;
+        padding: 18px 20px;
+        border-left: 4px solid var(--accent);
+        background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+        border-radius: 8px;
+        font-weight: 600;
+      }
+      footer {
+        margin-top: 42px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: .94rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="app-name">Bendora</div>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Effective date: August 31, 2026</p>
+      </header>
+
+      <p class="summary">Bendora stores calculation work locally and displays one Google AdMob banner. It does not require an account or send calculations, Bender Profiles, history, favorites, checklist states, or settings to a Bendora-operated server.</p>
+
+      <h2>Information stored on your device</h2>
+      <p>Calculations, Bender Profiles, saved history, favorites, checklist states, and app settings are stored in Bendora's local SQLite database on your device. Bendora does not provide cloud synchronization and does not upload this work data to a Bendora-operated server.</p>
+
+      <h2>Advertising and Google data processing</h2>
+      <p>Bendora uses the Google Mobile Ads SDK to display a banner advertisement. Depending on the user's region, consent choices, device settings, and Google's configuration, Google and its advertising partners may automatically process information such as IP address and approximate location, device or app identifiers, advertising data, interactions with the app or advertisements, crash data, performance data, and other diagnostic information. This processing may support advertising, ad measurement, analytics, security, and fraud prevention.</p>
+      <p>Bendora does not send saved calculations, Bender Profiles, history, favorites, checklist states, or settings to Google Mobile Ads. Bendora does not include a separate first-party analytics SDK, Firebase, an account system, cloud synchronization, or an in-app purchase SDK.</p>
+      <p>For details about Google's practices, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and the <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google Mobile Ads SDK data-disclosure documentation</a>.</p>
+
+      <h2>Consent and advertising choices</h2>
+      <p>Bendora uses Google's User Messaging Platform (UMP) to request or refresh consent information and show a consent message where required. Advertising requests are not made until UMP reports that ads may be requested. Where applicable, users can review available choices through <strong>Settings &gt; Ad privacy choices</strong>.</p>
+      <p>Every Bendora banner request explicitly requests a non-personalized ad. Bendora does not request App Tracking Transparency permission and does not call Apple's tracking authorization API. Non-personalized advertising does not mean that Google processes no data; the advertising-related processing described above may still occur.</p>
+
+      <h2>Support requests and user-initiated sharing</h2>
+      <p>When a user chooses Contact Support, Bendora opens an email draft containing the app version, build number, iOS version, and device model. The user can review, edit, cancel, or send it. Bendora does not automatically attach calculation history or Bender Profiles. If an email is sent, its contents are processed by the user, the relevant email providers, and the developer for support purposes.</p>
+      <p>When a user chooses to share a calculation, iOS presents the system share sheet. The selected destination processes the shared content under its own privacy practices.</p>
+
+      <h2>Retention and deletion</h2>
+      <p>Local data remains on the device until the user deletes saved entries or removes Bendora. Removing the app through iOS normally removes its local app data, subject to Apple-controlled backup and restore behavior. Removing local Bendora data does not delete information already processed by Google; Google's privacy and advertising controls apply to that information.</p>
+
+      <h2>Security and policy changes</h2>
+      <p>Local app data is protected by the security features and app sandbox provided by iOS. No storage or transmission method can be guaranteed to be completely secure. This policy may be updated if Bendora's features, SDKs, or data practices change. The effective date above identifies the current version.</p>
+
+      <h2>Contact</h2>
+      <p>For privacy questions or support, email <a href="mailto:support@passmate.jp">support@passmate.jp</a>.</p>
+
+      <footer>Bendora 1.0.0 · Bundle ID com.birth.bendora</footer>
+    </main>
+  </body>
+</html>
